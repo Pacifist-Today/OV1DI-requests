@@ -1,0 +1,17 @@
+{
+  "name": "ov1di-telegram-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy server to forward form submissions to a Telegram bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
